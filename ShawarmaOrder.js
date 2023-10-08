@@ -13,9 +13,9 @@ const OrderState = Object.freeze({
 const price = {
   shawarma: 12,
   fish: 13,
-  burger: 15,
-  drinks: 3,
-  cookies: 2.5,
+  burger: 10,
+  drinks: 2,
+  cookies: 1,
 };
 
 module.exports = class ShwarmaOrder extends Order {
